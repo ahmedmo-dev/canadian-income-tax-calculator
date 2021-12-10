@@ -82,52 +82,52 @@ var QPIPTax = 0;
 var OHIPTax = 0;
 
 var CPPExemption = 3500;
-var CPPContributionRate = 0.0525;
-var CPPMaxContribution = 2898;
-var enhancedCPPRate = 0.003;
+var CPPContributionRate = 0.057;
+var CPPMaxContribution = 3499.80;
+var enhancedCPPRate = 0.005;
 
 var QPPExemption = 3500;
-var QPPContributionRate = 0.0570;
-var QPPMaxContribution = 3146.40;
-var enhancedQPPRate = 0.003;
+var QPPContributionRate = 0.0615;
+var QPPMaxContribution = 3776.10;
+var enhancedQPPRate = 0.005;
 
 var EIROCRate = 0.0158;
-var EIROCMax = 856.36;
+var EIROCMax = 952.74;
 
 var EIQCRate = 0.0120;
-var EIQCMax = 650.40;
+var EIQCMax = 723.60;
 
 var QPIPExemption = 2000;
 var QPIPContributionRate = 0.00494;
-var QPIPMaxContribution = 387.79;
+var QPIPMaxContribution = 434.72;
 var QPIPTax = 0;
 
 var OHIPContribution = 0;
 
 
 //Federal assumptions
-var federalBracket1 = 48535;
-var federalBracket2 = 97069;
-var federalBracket3 = 150473;
-var federalBracket4 = 214368;
+var federalBracket1 = 50197;
+var federalBracket2 = 100392;
+var federalBracket3 = 155625;
+var federalBracket4 = 221708;
 var federalRate1 = 0.15;
 var federalRate2 = 0.205;
 var federalRate3 = 0.26;
-var federalRate4 = 0.29;
+var federalRate4 = 0.2938;
 var federalRate5 = 0.33;
 
-var baseFederalPersonalAmount = 12298;
-var maxEnhancedBPA = 931;
+var baseFederalPersonalAmount = 14398;
+var maxEnhancedBPA = 1169;
 var enhancedBPA = 0;
 var totalFederalPersonalAmount = 0;
-var enhancedBPAThresholdStart = 150473;
-var enhancedBPAThresholdEnd = 214368;
+var enhancedBPAThresholdStart = 155625;
+var enhancedBPAThresholdEnd = 221708;
 
 var federalEligibleDivCredit = 0.1502;
 var federalNonEligibleDivCredit = 0.090301;
 var federalTaxCreditRate = 0.15;
 var federalEmploymentAmount = 0;
-var federalEmploymentMax = 1245;
+var federalEmploymentMax = 1287;
 
 var QCAbatementRate = 0.165;
 
@@ -251,8 +251,8 @@ var NUNonEligibleDivCredit = 0.0261;
 var NUTaxCreditRate = 0.04;
 
 //ON assumptions
-var ONBracket1 = 44740;
-var ONBracket2 = 89482;
+var ONBracket1 = 46226;
+var ONBracket2 = 92454;
 var ONBracket3 = 150000;
 var ONBracket4 = 220000;
 var ONRate1 = 0.0505;
@@ -260,13 +260,13 @@ var ONRate2 = 0.0915;
 var ONRate3 = 0.1116;
 var ONRate4 = 0.1216;
 var ONRate5 = 0.1316;
-var ONPersonalAmount = 10783;
+var ONPersonalAmount = 11141;
 var ONEligibleDivCredit = 0.10;
 var ONNonEligibleDivCredit = 0.029863;
 var ONTaxCreditRate = 0.0505;
 
-var ONSurtax1 = 4830;
-var ONSurtax2 = 6182;
+var ONSurtax1 = 4991;
+var ONSurtax2 = 6387;
 var ONSurtax1Rate = 0.2;
 var ONSurtax2Rate = 0.36;
 
